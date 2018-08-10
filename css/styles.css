@@ -15,9 +15,13 @@ Header/Banner
   justify-content: center;
 }
 
+/*
+Body
+*/
 
-
-
+.container {
+  max-width: 70%;
+}
 
 
 
@@ -27,4 +31,25 @@ Survey Questions
 
 .form-control {
   width: 50%;
+}
+
+/*
+Survey Answers
+*/
+
+.survey-answers {
+  margin-top: 50px;
+  border-top: 2px solid #403f4c;
+}
+
+#answer-ruby,
+#answer-react,
+#answer-csharp,
+#answer-oops {
+  display: none;
+}
+
+.answer-img {
+  width: 175px;
+  padding: 30px 0;
 }
