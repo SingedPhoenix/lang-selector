@@ -23,18 +23,27 @@ Because I couldn't possibly code out all of the variations of answers, I created
 
 To get React, try this survey answer combination:
 _Windows / Yes / Love / Facebook / Blue_
+
 _Mac / Yes / Love / Facebook / Blue_
+
 _Mac / Yes / Love / Facebook / Purple_
+
 
 To get Ruby, try this survey answer combination:
 _Mac / Yes / Love / AirBnB / Red_
+
 _Mac / Yes / Hate / AirBnB / Red_
+
 _Windows / Yes / Hate / AirBnB / Red_
+
 
 To get C#, try this survey answer combination:
 _Windows / No / Hate / Mircosoft / Purple_
+
 _Windows / No / Love / Microsoft / Purple_
+
 _Mac / No / Hate / Microsoft / Purple_
+
 
 Project Link
 Github Repository: https://github.com/SingedPhoenix/lang-selector
