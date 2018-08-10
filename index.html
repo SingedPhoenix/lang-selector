@@ -3,88 +3,146 @@
   <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Lato|Oswald:600|Work+Sans:400,600" rel="stylesheet">
     <title>Programming Language Selector</title>
   </head>
   <body>
     <div class="jumbotron vert-cent">
-      <h1 class="text-center display-1 text-white">Which Path to Take</h1>
-      <p class="text-center lead text-white">A Rudimentary Guide in Choosing the Right Programming Language for You</p>
+      <h1 class="text-center display-1 text-white jumbo-h1">Which Path to Take</h1>
+      <p class="text-center lead text-white jumbo-p">A Rudimentary Guide in Choosing the Right Programming Language for You</p>
     </div>
     <div class="container">
 
+      <div class="lang-sum">
+        <h2 class="section-header">Language Summaries</h2>
+        <div class="row headroom">
+          <div class="div col-lg-6">
+            <h3 class="react-header lang-header react-header">React</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet purus a faucibus vulputate. In eu pharetra nunc, quis aliquet lorem. Sed ullamcorper ultricies odio sit amet ultrices. Nullam ultrices id turpis volutpat pretium. Suspendisse
+              sit amet augue et nunc vehicula luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus feugiat egestas quam, quis tempor eros rutrum in.</p>
+            <ul>
+              <li>It's not a framework, but a JS library.</li>
+              <li>Easy to learn and easy to use.</li>
+              <li>Utilize a virtual DOM.</li>
+              <li>Has an open source library that is constantly expanding.</li>
+            </ul>
+          </div>
+          <div class="div col-lg-6">
+            <img src="img/react-logo.png" alt="" class="img-fluid mx-auto d-block">
+          </div>
+
+        </div>
+
+        <div class="row headroom">
+          <div class="div col-lg-6 ">
+            <h3 class="csharp-header">C# & .Net</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet purus a faucibus vulputate. In eu pharetra nunc, quis aliquet lorem. Sed ullamcorper ultricies odio sit amet ultrices. Nullam ultrices id turpis volutpat pretium. Suspendisse
+              sit amet augue et nunc vehicula luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus feugiat egestas quam, quis tempor eros rutrum in.</p>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="div col-lg-6 ">
+            <img src="img/csharp-logo.png" alt="" class="img-fluid mx-auto d-block">
+          </div>
+        </div>
+
+        <div class="row headroom">
+          <div class="div col-lg-6">
+            <h3 class="ruby-header">Ruby / Ruby on Rails</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet purus a faucibus vulputate. In eu pharetra nunc, quis aliquet lorem. Sed ullamcorper ultricies odio sit amet ultrices. Nullam ultrices id turpis volutpat pretium. Suspendisse
+              sit amet augue et nunc vehicula luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus feugiat egestas quam, quis tempor eros rutrum in.</p>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="div col-lg-6">
+            <img src="img/ruby-logo.png" alt="" class="img-fluid mx-auto d-block">
+          </div>
+        </div>
+
+      </div>
+
       <!--Language Selection Survey-->
-      <form id="lang-select">
+      <div class="lang-survey">
+        <h2 class="section-header">Language Survey</h2>
+        <p>Do you need help deciding which programming language is best for you? Don't worry, I got you. Take this simple survey to find out which programming path you should venture down.</p>
 
-        <!--Question 1(To see if you love C#)-->
-        <div class="form-group">
-          <label for="question1">Question 1:</label>
-          <select id="question1" class="form-control">
-            <option value="0">Which operating system do you prefer more?</option>
-            <option value="1">Windows</option>
-            <option value="2">Mac / Linux</option>
-          </select>
-        </div>
+        <form id="lang-select">
+          <!--Question 1(To see if you love C#)-->
+          <div class="form-group">
+            <label for="question1">Question 1:</label>
+            <select id="question1" class="form-control">
+              <option value="0">Which operating system do you prefer more?</option>
+              <option value="1">Windows</option>
+              <option value="2">Mac / Linux</option>
+            </select>
+          </div>
 
-        <!--Question 2 (To see if you love C#)-->
-        <div class="form-group">
-          <label for="question2">Question 2:</label>
-          <select id="question2" class="form-control">
-            <option value="0">Do you love frameworks?</option>
-            <option value="1">No</option>
-            <option value="2">Yes</option>
-          </select>
-        </div>
+          <!--Question 2 (To see if you love C#)-->
+          <div class="form-group">
+            <label for="question2">Question 2:</label>
+            <select id="question2" class="form-control">
+              <option value="0">Do you love frameworks or libraries?</option>
+              <option value="1">No</option>
+              <option value="2">Yes</option>
+            </select>
+          </div>
 
-        <!--Question 3 (To see if you love React)-->
-        <div class="form-group">
-          <label for="question3">Question 3:</label>
-          <select id="question3" class="form-control">
-            <option value="0">How do you feel about JavaScript?</option>
-            <option value="1">Hate it...burn it with fire!!!</option>
-            <option value="2">Love it...I have ES2015 tattooed on my chest!!!</option>
-          </select>
-        </div>
+          <!--Question 3 (To see if you love React)-->
+          <div class="form-group">
+            <label for="question3">Question 3:</label>
+            <select id="question3" class="form-control">
+              <option value="0">How do you feel about JavaScript?</option>
+              <option value="1">Hate it...burn it with fire!!!</option>
+              <option value="2">Love it...I have ES2015 tattooed on my chest!!!</option>
+            </select>
+          </div>
 
-        <!--Question 4-->
-        <div class="form-group">
-          <label for="question4">Question 4:</label>
-          <select id="question4" class="form-control">
-            <option value="0">Where would you like to work?</option>
-            <option value="1">Microsoft, Infosys, or Accenture</option>
-            <option value="2">Netflix, Facebook, or Atlassian</option>
-            <option value="3">AirBnB, SoundCloud, or Shopify</option>
-          </select>
-        </div>
+          <!--Question 4-->
+          <div class="form-group">
+            <label for="question4">Question 4:</label>
+            <select id="question4" class="form-control">
+              <option value="0">Where would you like to work?</option>
+              <option value="1">Microsoft, Infosys, or Accenture</option>
+              <option value="2">Netflix, Facebook, or Atlassian</option>
+              <option value="3">AirBnB, SoundCloud, or Shopify</option>
+            </select>
+          </div>
 
-        <!--Question 5-->
-        <div class="form-group">
-          <label for="question5">Question 5:</label>
-          <select id="question5" class="form-control">
-            <option value="0">Which color do you love most?</option>
-            <option value="1">Purple</option>
-            <option value="2">Red</option>
-            <option value="3">Blue</option>
-          </select>
-        </div>
+          <!--Question 5-->
+          <div class="form-group">
+            <label for="question5">Question 5:</label>
+            <select id="question5" class="form-control">
+              <option value="0">Which color do you love most?</option>
+              <option value="1">Purple</option>
+              <option value="2">Red</option>
+              <option value="3">Blue</option>
+            </select>
+          </div>
 
-        <button type="submit" class="btn btn-secondary">Submit</button>
-      </form>
-
+          <button type="submit" class="btn btn-secondary">Submit</button>
+        </form>
+      </div>
       <!--Survey Response Answers-->
       <div class="survey-answers">
 
         <div id="answer-ruby">
           <img src="img/ruby-answer.png" alt="Ruby logo" class="img-fluid mx-auto d-block answer-img">
-          <h2>Looks like Ruby on Rails is for you...</h2>
+          <h3 class="ruby-header">Looks like Ruby on Rails is for you...</h3>
           <p>The best thing about a boolean is even if you are wrong, you are only off by a bit. Premature optimization is the root of all evil. Most iconic duo: Kernighan and Ritchie. Google, Amazon, Facebook, Apple. Everything in Ruby is an object. Ruby on
             Rails.</p>
         </div>
 
         <div id="answer-react">
           <img src="img/react-answer.png" alt="React logo" class="img-fluid mx-auto d-block answer-img">
-          <h2>Looks like React is for you...</h2>
+          <h3 class="react-header">Looks like React is for you...</h3>
           <p>Choose the right data structures, and the code will write itself. Profanity: The truly multi-platform programming language. Real Programmers use C since it's the easiest language to spell. Real Programmers use C since it's the easiest language to
             spell. Premature optimization is the root of all evil. // Below here there be dragons.
           </p>
@@ -92,7 +150,7 @@
 
         <div id="answer-csharp">
           <img src="img/csharp-answer.png" alt="C# logo" class="img-fluid mx-auto d-block answer-img">
-          <h2>Looks like C# is for you...</h2>
+          <h3 class="csharp-header">Looks like C# is for you...</h3>
           <p>Merge sort, quick sort, bubble sort, bogo sort, tim sort. In order to understand recursion, one must first understand recursion. Some people, when confronted with a problem, think, 'I know, I'll use threads' - and then two they hav erpoblesms. A
             programmer puts two glasses on his bedside table before going to sleep. A full one, in case he gets thirsty, and an empty one, in case he doesn't. Albeit an archaic language, C is still relevant for systems programming. *In a multi-hundred line
             assembly file, only one comment 80% of the way down - // Gets tricky here.
@@ -101,11 +159,23 @@
 
         <div id="answer-oops">
           <img src="img/oops-answer.png" alt="Oops" class="img-fluid mx-auto d-block answer-img">
-          <h2>Uh-oh...</h2>
+          <h3 class="oops-header">Uh-oh...</h3>
           <p>Looks like you missed you a question. Go through and fill out the survey again to see which programming language is right for you.
           </p>
         </div>
       </div>
     </div>
+    <footer class="page-footer">
+      <div class="footer-copyright text-center text-white py-4">
+
+        <span class="text-left">&copy<em>Copyright 2018</em>
+        </span>
+
+        <span class="text-right">Created by Daniel Aberle</span>
+
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
