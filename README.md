@@ -22,6 +22,7 @@ The survey itself is pretty self-explanatory...I mean, it's not a "cool" Faceboo
 Because I couldn't possibly code out all of the variations of answers, I created an answer key to show you the functionality of the program.
 
 To get React, try this survey answer combination:
+
 _Windows / Yes / Love / Facebook / Blue_
 
 _Mac / Yes / Love / Facebook / Blue_
@@ -30,6 +31,7 @@ _Mac / Yes / Love / Facebook / Purple_
 
 
 To get Ruby, try this survey answer combination:
+
 _Mac / Yes / Love / AirBnB / Red_
 
 _Mac / Yes / Hate / AirBnB / Red_
@@ -38,6 +40,7 @@ _Windows / Yes / Hate / AirBnB / Red_
 
 
 To get C#, try this survey answer combination:
+
 _Windows / No / Hate / Mircosoft / Purple_
 
 _Windows / No / Love / Microsoft / Purple_
