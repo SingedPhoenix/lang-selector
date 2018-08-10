@@ -7,54 +7,53 @@ $(document).ready(function() {
     var answer4 = $("select#question4").val();
     var answer5 = $("select#question5").val();
 
-
     if (answer1 === "1" && answer2 === "2" && answer3 === "2" && answer4 === "2" && answer5 === "3") {
-      $("#answer-react").show();
+      $("#answer-react").fadeIn();
       $('#answer-ruby').hide();
       $('#answer-csharp').hide();
       $('#answer-oops').hide();
     } else if (answer1 === "2" && answer2 === "2" && answer3 === "2" && answer4 === "2" && answer5 === "3") {
-      $("#answer-react").show();
+      $("#answer-react").fadeIn();
       $('#answer-ruby').hide();
       $('#answer-csharp').hide();
       $('#answer-oops').hide();
     } else if (answer1 === "2" && answer2 === "2" && answer3 === "2" && answer4 === "2" && answer5 === "1") {
-      $("#answer-react").show();
+      $("#answer-react").fadeIn();
       $('#answer-ruby').hide();
       $('#answer-csharp').hide();
       $('#answer-oops').hide();
     } else if (answer1 === "2" && answer2 === "2" && answer3 === "2" && answer4 === "3" && answer5 === "2") {
-      $("#answer-ruby").show();
+      $("#answer-ruby").fadeIn();
       $('#answer-react').hide();
       $('#answer-csharp').hide();
       $('#answer-oops').hide();
     } else if (answer1 === "2" && answer2 === "2" && answer3 === "1" && answer4 === "3" && answer5 === "2") {
-      $("#answer-ruby").show();
+      $("#answer-ruby").fadeIn();
       $('#answer-react').hide();
       $('#answer-csharp').hide();
       $('#answer-oops').hide();
     } else if (answer1 === "1" && answer2 === "2" && answer3 === "1" && answer4 === "3" && answer5 === "2") {
-      $("#answer-ruby").show();
+      $("#answer-ruby").fadeIn();
       $('#answer-react').hide();
       $('#answer-csharp').hide();
       $('#answer-oops').hide();
     } else if (answer1 === "1" && answer2 === "1" && answer3 === "1" && answer4 === "1" && answer5 === "1") {
-      $("#answer-csharp").show();
+      $("#answer-csharp").fadeIn();
       $('#answer-react').hide();
       $('#answer-ruby').hide();
       $('#answer-oops').hide();
     } else if (answer1 === "1" && answer2 === "1" && answer3 === "2" && answer4 === "1" && answer5 === "1") {
-      $("#answer-csharp").show();
+      $("#answer-csharp").fadeIn();
       $('#answer-react').hide();
       $('#answer-ruby').hide();
       $('#answer-oops').hide();
     } else if (answer1 === "2" && answer2 === "1" && answer3 === "1" && answer4 === "1" && answer5 === "1") {
-      $("#answer-csharp").show();
+      $("#answer-csharp").fadeIn();
       $('#answer-react').hide();
       $('#answer-ruby').hide();
       $('#answer-oops').hide();
     } else { //In case of empty survey field
-      $("#answer-oops").show();
+      $("#answer-oops").fadeIn();
       $('#answer-react').hide();
       $('#answer-ruby').hide();
       $('#answer-csharp').hide();
