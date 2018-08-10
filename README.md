@@ -22,19 +22,19 @@ The survey itself is pretty self-explanatory...I mean, it's not a "cool" Faceboo
 Because I couldn't possibly code out all of the variations of answers, I created an answer key to show you the functionality of the program.
 
 To get React, try this survey answer combination:
-_Windows / Yes / Love / Facebook / Blue
-Mac / Yes / Love / Facebook / Blue
-Mac / Yes / Love / Facebook / Purple_
+_Windows / Yes / Love / Facebook / Blue_
+_Mac / Yes / Love / Facebook / Blue_
+_Mac / Yes / Love / Facebook / Purple_
 
 To get Ruby, try this survey answer combination:
-_Mac / Yes / Love / AirBnB / Red
-Mac / Yes / Hate / AirBnB / Red
-Windows / Yes / Hate / AirBnB / Red_
+_Mac / Yes / Love / AirBnB / Red_
+_Mac / Yes / Hate / AirBnB / Red_
+_Windows / Yes / Hate / AirBnB / Red_
 
 To get C#, try this survey answer combination:
-_Windows / No / Hate / Mircosoft / Purple
-Windows / No / Love / Microsoft / Purple
-Mac / No / Hate / Microsoft / Purple_
+_Windows / No / Hate / Mircosoft / Purple_
+_Windows / No / Love / Microsoft / Purple_
+_Mac / No / Hate / Microsoft / Purple_
 
 Project Link
 Github Repository: https://github.com/SingedPhoenix/lang-selector
