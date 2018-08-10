@@ -14,3 +14,17 @@ Header/Banner
   flex-direction: column;
   justify-content: center;
 }
+
+
+
+
+
+
+
+/*
+Survey Questions
+*/
+
+.form-control {
+  width: 50%;
+}
